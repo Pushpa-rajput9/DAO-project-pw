@@ -1,0 +1,109 @@
+*{
+    margin:0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./assets/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-size: 100% 800px;
+    
+}
+nav{
+    padding: 0 0 0 4%;
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    grid-template-rows: 60px;
+    background-color: #060606e6;
+    align-items: center;
+}
+nav div img{
+    
+    height: 30px;
+    width: 98px;
+    position: fixed;
+    /* bottom: 10%;
+    top: 0%;
+    right: 0%;
+    left: 0%; */
+}
+span{
+    font-size: 35px;
+    font-weight: 100;
+    margin: 0px;
+    padding: 150px;
+    color: grey;
+}
+nav ul{
+    display: grid;
+    grid-template-columns:100px 100px 100px 100px 100px;
+    grid-template-rows: 60px;
+    list-style: none;
+    align-items: center;
+    justify-items:center;
+    position: relative;
+    right:150px;
+}
+a{
+    text-decoration: none;
+color: white;
+
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: 800;
+    color: #9c127c;
+}
+.token{
+    padding-left: 50%;
+}
+button{
+    color: white;
+    background-color: #9c127c;
+    padding: 5px 30px;
+    height: 35px;
+    border: #9c127c;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: medium;
+}
+button:hover{
+    background-color: white;
+    color: #9c127c;
+}
+main{
+    padding:7% 0% 0% 28%;
+    
+    font-weight: 500; 
+} 
+h1{
+  font-size: 65px;  
+  font-weight: 800;
+}
+.h1{
+    position: relative;
+    right: 5%;
+    font-size: 75px;
+    font-weight: 800;
+
+}
+main p{
+    font-size: 18px;
+    padding: 0px 0px 35px 70px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    justify-content: center;
+    
+}
+.access{
+    padding-left: 20%;
+}
+.access button{
+    font-size: large;
+}
