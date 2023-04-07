@@ -26,7 +26,8 @@ nav div img{
     
     height: 30px;
     width: 98px;
-    
+    position: fixed;
+    top: 12px;
 }
 span{
     font-size: 35px;
