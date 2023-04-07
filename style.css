@@ -68,7 +68,7 @@ button{
     font-weight: 600;
     border-radius: 5px;
     font-size: medium;
-    cursor: pointer;
+   cursor: auto;
 }
 button:hover{
     background-color: #ffffff;
